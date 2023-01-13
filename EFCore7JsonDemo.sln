@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore7JsonDemo", "EFCore7JsonDemo\EFCore7JsonDemo.csproj", "{0E7F58DA-4445-46BB-A591-3D5DCF0D5950}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlDatabase", "SqlDatabase\SqlDatabase.sqlproj", "{C0B1CE38-8FFB-433B-A174-3DE3627297CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7F58DA-4445-46BB-A591-3D5DCF0D5950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7F58DA-4445-46BB-A591-3D5DCF0D5950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7F58DA-4445-46BB-A591-3D5DCF0D5950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7F58DA-4445-46BB-A591-3D5DCF0D5950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B1CE38-8FFB-433B-A174-3DE3627297CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B1CE38-8FFB-433B-A174-3DE3627297CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B1CE38-8FFB-433B-A174-3DE3627297CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C0B1CE38-8FFB-433B-A174-3DE3627297CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B1CE38-8FFB-433B-A174-3DE3627297CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B1CE38-8FFB-433B-A174-3DE3627297CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E9B92F4-6F6E-40CD-BF39-D6B2770070FF}
+	EndGlobalSection
+EndGlobal

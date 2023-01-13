@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Education]
+(
+	[Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	[HighSchool] BIT NOT NULL DEFAULT 0,
+	[GED] BIT NOT NULL DEFAULT 0,
+	[Associates] BIT NOT NULL DEFAULT 0,
+	[Bachelors] BIT NOT NULL DEFAULT 0,
+	[Masters] BIT NOT NULL DEFAULT 0,
+	[Doctorate] BIT NOT NULL DEFAULT 0,
+	[PersonId] INT NOT NULL,
+	INDEX IX_Education_PersonId NONCLUSTERED ([PersonId]),
+	FOREIGN KEY ([PersonId]) REFERENCES [dbo].[Person] ([Id])
+)
